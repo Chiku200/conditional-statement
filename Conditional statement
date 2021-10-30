@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main(){
+	int s1,s2,s3,s4,s5,s6,per;
+	printf("Enter the mark of 6 subjects :\n");
+	scanf("%d %d %d %d %d %d",&s1,&s2,&s3,&s4,&s5,&s6);
+	
+	per=(s1+s2+s3+s4+s5+s6)/6.0;
+	if(per>100)
+	
+		printf("YOU ENTER INVALID MARK:Please re-enter the mark\n");
+	
+	else if(per>=85)
+	
+		printf("GRADE A\n");
+	
+	else if(per>=70)
+	
+	printf("GRADE B\n");
+	
+	else if(per>=55)
+	
+		printf("GRADE C\n");
+	
+	else if(per>=40)
+	
+		printf("GRADE D\n");
+	
+	else
+	
+		printf("GRADE F\n");
+	
+	return 0;
+}
